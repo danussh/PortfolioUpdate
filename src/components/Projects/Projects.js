@@ -3,6 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+import amazon from "../../Assets/Projects/amazon.webp"
+import money from "../../Assets/Projects/money.webp"
+import product from "../../Assets/Projects/product.webp"
+import video from "../../Assets/Projects/video.webp"
+import weather from "../../Assets/Projects/weather.webp"
+import memories from "../../Assets/Projects/memories.webp"
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -17,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://danusshpportfolio.netlify.app/static/media/Video_app.902737af.webp"
+              imgPath={video}
               isBlog={false}
               title="Video Call"
               description="This app Provides login Facility along with the Users Time Logged In can be exported to Excel Sheet Along with End to End Video Calling The specific user in search Or sharing the socket ID to the registered users"
@@ -26,7 +33,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://danusshpportfolio.netlify.app/static/media/get_github_info.9545dd20.webp"
+              imgPath={amazon}
               isBlog={false}
               title="AMAZON CLONE"
               description="Fully Functioning AMAZON CLONE Website with Stripe Payment Gateway and Firebase Hoisting"
@@ -35,7 +42,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://danusshpportfolio.netlify.app/static/media/portfolioUsingDjango.63fa75da.webp"
+              imgPath={memories}
               isBlog={false}
               title="Memories Media"
               description="The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives along with Upload of Photos and Like Functionality similar to facebook likes"
@@ -44,7 +51,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://danusshpportfolio.netlify.app/static/media/product_hunt_clone.8b753c36.webp"
+              imgPath={weather}
               isBlog={false}
               title="Weather Finder"
               description="An app that searches Weather across the Globe and see all details using Weather API"
@@ -53,7 +60,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://danusshpportfolio.netlify.app/static/media/mern_tip_calc.348acd74.webp"
+              imgPath={money}
               isBlog={false}
               title="Money Manager App"
               description="This app Keeps the Track of Income and Expenses It uses MERN stack build to acomplish the same."
@@ -62,7 +69,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://danusshpportfolio.netlify.app/static/media/Robofriends.ce777647.webp"
+              imgPath={product}
               isBlog={false}
               title="Product Management"
               description="This app Provides login Facility along with the product management It uses MERN stack build to acomplish the same."
