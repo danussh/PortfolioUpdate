@@ -13,7 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import { SiWorkplace } from "react-icons/si";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -79,6 +79,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <SiWorkplace
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Work Experience
               </Nav.Link>
             </Nav.Item>
 

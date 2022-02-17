@@ -10,7 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Danussh P </span>
             from <span className="purple"> Chennai, India.</span>
-            <br />I am a Full Stack Developer
+            <br />
+            <br />I am a Full Stack Developer in Athenahealth.
+            <br />Graduated from SA Engineering in Stream of Electronics and Communication
+            and inclined Towards Developing Products and technolgy {String.fromCodePoint(0x1F49C)}
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
