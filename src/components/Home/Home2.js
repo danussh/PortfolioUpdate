@@ -7,6 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import {SiLeetcode} from "react-icons/si"
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -69,6 +70,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://leetcode.com/danussh/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
                 </a>
               </li>
               <li className="social-icons">

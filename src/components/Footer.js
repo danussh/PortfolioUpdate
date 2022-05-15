@@ -5,6 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import {SiLeetcode} from "react-icons/si"
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -21,6 +22,16 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+          <li className="social-icons">
+              <a
+                href="https://leetcode.com/danussh/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiLeetcode />
+              </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/danussh"
